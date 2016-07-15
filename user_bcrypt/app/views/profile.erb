@@ -1,0 +1,16 @@
+<br><br>
+<div>Estamos en profile</div>
+<br>
+<div>Bienvenido a tu perfil </div>
+<br>
+<div class="user"><%= @user.name %></div>
+
+<a href='/profile/<%="#{@user.id}"%>/edit'>Editar Usuario</a>
+<br><br>
+
+<a href='/profile/<%="#{@user.id}"%>/delete'>Borrar Usuario</a>
+
+<br><br>
+<a href='/profile/<%="#{@user.id}"%>/password'>Cambiar contraseña</a>
+
+<a class="link" href="/outsesion">Cerrar sesión</a>

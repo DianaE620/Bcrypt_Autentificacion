@@ -1,0 +1,25 @@
+<br>
+<div>Esta es la sección para editar usuarios:</div>
+<br>
+<div class="contain_form">
+
+  <form method="post" action="/profile/edit" id="soyform">
+    Nombre:
+    <input type="text" value="<%=current_user.name%>"
+    name="name">
+
+    <br><br>
+
+    Email:
+    <input type="text" value="<%=current_user.email%>"
+    name="email">
+
+    <br><br>
+    <div class="boton" id="enviar">Editar</div>
+  </form>
+
+</div>
+
+<a href="/profile/<%=current_user.id%>">Regresar</a>
+
+

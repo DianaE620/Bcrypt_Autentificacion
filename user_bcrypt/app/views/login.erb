@@ -1,0 +1,32 @@
+<br>
+<div>Login</div>
+<br>
+<div>Ingresa tu usuario para iniciar sesión:</div>
+<br>
+
+<div class="contain_form">
+
+  <form id="soyform" method="post" action="/login">
+    Email:<br>
+    <input type="text" name="email">
+
+    <br><br>
+
+    Contraseña:<br>
+    <input type="password" name="pass">
+
+    <br><br>
+    <div class="boton" id="enviar">Ingresar</div>
+
+  </form>
+
+  <br>
+  <% if @error%>
+    <div class="error">Usuario o Contraseña Incorrectos</div>
+  <% end %>
+
+
+</div>
+
+
+<a href="/">Regresar</a>

@@ -1,0 +1,69 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+th {
+  text-align: left;
+}
+
+.boton{
+  background-color: #f1404b;
+  width: 100px;
+  text-align: center;
+  color: white;
+  padding: 7px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.link{
+  display: block;
+  text-align: right;
+  font-size: 1.2em;
+  text-decoration: none;
+  color:  #47b8e0;
+  font-weight: bold;
+}
+
+.contain_form{
+  border: 5px solid #00dffc;
+  text-align: center;
+  padding: 25px;
+  width: 250px;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+
+.prueba{
+  text-align: center;
+}
+
+.error{
+  text-align: center;
+  color: red;
+}
+
+.user{
+  background: linear-gradient(#008c9e, #dddfe6);
+  width: 200px;
+  height: 200px;
+  margin:0 auto;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  padding: 20px;
+  border-radius: 100%;
+  line-height:200px;  
+}
+
+input{
+  width: 200px;
+}
+
+
+
+
+

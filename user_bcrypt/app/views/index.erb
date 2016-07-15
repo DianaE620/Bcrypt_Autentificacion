@@ -1,0 +1,48 @@
+  <h1>Bienvenido usuario</h1>
+  <div>
+    Esta es la página de registro
+    <br><br>
+    Si ya estás registrado ingresa al login
+    <br><br>
+
+    <div class="contain_form">
+    <form method="post" action="/" id="soyform">
+
+      Nombre:<br>
+      <input type="text" placeholder="Ingresa nombre" name="name"><br><br>
+
+      Email:<br>
+      <input type="text" placeholder="Ingresa email" name="email"><br><br>
+
+      Contraseña:<br>
+      <input type="password" placeholder="Ingresa password" name="pass"><br><br>
+
+     <!--  <input type="submit"> -->
+
+      <div class="boton" id="enviar">Registrarme</div>
+
+    </form>
+
+    <br>
+      <% if @error %>
+        <div class="error">
+          <%=@user.errors.full_messages.join%>
+        </div>
+      <% end %>
+
+    </div>
+
+
+    <br>
+
+    <a class="link" href="/login">Ir a login</a>
+  
+  </div>
+
+<br><br><br>
+
+
+
+
+
+  
